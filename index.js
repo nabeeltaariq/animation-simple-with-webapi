@@ -29,7 +29,9 @@ var airplane = document.querySelector('.plane-div')
 var second_anim = airplane.animate(
   [
     { transform: 'translate(0,100px)' },
-    { transform: 'translate(900px,-100px)' },
+    { transform: 'translate(400px,-100px)' },
+    { transform: 'translate(900px,100px)' },
+    { transform: 'translate(1400px,200px)' },
   ],
 
   {
