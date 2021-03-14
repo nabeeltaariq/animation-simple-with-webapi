@@ -3,7 +3,7 @@ var animation = elem.animate(
   [
     // keyframes
     { transform: 'translate(0px,0px)' },
-    { transform: 'translate(-600px,0px)' },
+    { transform: 'translate(-1000px,0px)' },
   ],
   {
     duration: 5000,
@@ -16,7 +16,7 @@ var animation = elemsecond.animate(
   [
     // keyframes
     { transform: 'translate(0px,0px)' },
-    { transform: 'translate(-900px,0px)' },
+    { transform: 'translate(-2000px,0px)' },
   ],
   {
     duration: 7000,
@@ -28,15 +28,15 @@ var airplane = document.querySelector('.plane-div')
 
 var second_anim = airplane.animate(
   [
-    { transform: 'translate(0,100px)' },
+    { transform: 'translate(0,90px)' },
     { transform: 'translate(400px,-100px)' },
-    { transform: 'translate(900px,100px)' },
-    { transform: 'translate(1400px,200px)' },
+    { transform: 'translate(500px,215px)' },
+    { transform: 'translate(1500px,215px)' },
   ],
 
   {
     iterations: Infinity,
-    duration: 6000,
+    duration: 10000,
     playbackRate: -4,
   }
 )
